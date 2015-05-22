@@ -1,6 +1,4 @@
 ﻿var orderApp = angular.module("ordersApp", []);
-$scope.orders = [];
-$scope.newOrder={};
 orderApp.controller('OrderContorller', function ($scope, $http) {
 
     $(function () {
